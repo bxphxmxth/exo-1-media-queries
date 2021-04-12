@@ -1,0 +1,36 @@
+/* # Exexrcice 1 -> Media Queries
+
+## - Pour des écrans plus grands que 1024px la couleur de fond du body est rouge
+
+## - Pour des écrans entre 600px et 1024px la couleur de fond du body est blue
+
+## - Pour des écrans ntre 320px et 600px la couleur de fond du body est verte */
+
+
+
+@media (min-width:1024px) {
+
+    body{
+        background-color: red;
+    }
+
+}
+
+
+@media (min-width:600px) and (max-width:1023px){
+    
+    body{
+        background-color: blue;
+    }
+
+}
+
+
+@media (min-width:320px) and (max-width:599px){
+    
+    body{
+
+        background-color: green;
+    }
+
+}
